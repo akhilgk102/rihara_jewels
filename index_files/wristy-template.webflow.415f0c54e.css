@@ -7807,7 +7807,7 @@ blockquote {
   }
 
   .cta-wrap {
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("https://assets-global.website-files.com/65bc7e5abad2415ae9f74dea/65e82fd9265b85e1540a0677_cta.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("./img/footer.jpg");
     background-position: 0 0, 50%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
