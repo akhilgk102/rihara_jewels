@@ -5119,7 +5119,7 @@ blockquote {
   grid-column-gap: 10px;
   color: #fff;
   background-color: #000;
-  background-image: url("https://assets-global.website-files.com/65bc7e5abad2415ae9f74dea/65e97e8e4c0a7c06e5d47b3c_Icon-cart.svg");
+  /* background-image: url("https://assets-global.website-files.com/65bc7e5abad2415ae9f74dea/65e97e8e4c0a7c06e5d47b3c_Icon-cart.svg"); */
   background-position: 100px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -5129,8 +5129,8 @@ blockquote {
   align-items: center;
   margin-left: 0;
   margin-right: 0;
-  padding: 12px 50px 12px 24px;
-  font-size: 12px;
+  padding: 12px 20px 12px 24px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 130%;
   text-decoration: none;
