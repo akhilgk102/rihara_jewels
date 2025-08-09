@@ -5912,24 +5912,31 @@ blockquote {
   display: flex;
 }
 
-.hero-right {
-  background-color: var(--bg);
-  background-image: url("./img/home.png");
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  flex-flow: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 40%;
-  padding-top: 80px;
-  padding-bottom: 60px;
-  display: flex;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
+  .hero-right {
+    background-color: var(--bg);
+    background-image: url("./img/home.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 40%;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  /* Hide background image on mobile screens */
+@media (max-width: 768px) {
+  .hero-right {
+    background-image: none;
+  }
 }
 
 .hero-title {
